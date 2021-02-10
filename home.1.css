@@ -1,0 +1,70 @@
+body {
+    background-color: lightgrey;
+}
+
+.head img {
+    width: 100%;
+    height: 200px;
+}
+
+.viewLi {
+    float: left;
+    text-align: center;
+    padding: 30px;
+    background-color: orange;
+    text-align: center;
+    width: 100%;
+}
+
+.aboutMe img {
+    float: left;
+    max-width: 30%;
+}
+
+.aboutMe .p1 {
+    font-size: 50px;
+    text-align: left;
+}
+
+.aboutMe .p2 {
+    font-size: 40px;
+    text-align: center;
+    background-color: palegreen;
+}
+
+.aboutMe .p3 {
+    font-size: 40px;
+    text-align: right;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.textOfMyWork {
+    text-align: center;
+    font-size: 30px;
+}
+
+.textOfMyWork .p1 {
+    margin-right: 150px;
+}
+
+.textOfMyWork .p2 {
+    margin-left: 150px;
+}
+
+.hrefsMyWorks {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.hrefsMyWorks img {
+    width: 200px;
+    height: 100px;
+}
+
+.contacts {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
