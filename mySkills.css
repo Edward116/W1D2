@@ -1,0 +1,87 @@
+    body {
+        background-color: grey;
+    }
+    
+    .block svg {
+        position: relative;
+        stroke-width: 25px;
+        stroke: cadetblue;
+    }
+    
+    span {
+        position: relative;
+        padding: 20px;
+        bottom: 14px;
+    }
+    
+    section {
+        text-align: center;
+    }
+    
+    .firstBlock {
+        background-color: rgb(133, 23, 23);
+        box-shadow: 10px 15px 15px red;
+        border-radius: 20px;
+    }
+    
+    .secondBlock {
+        background-color: rgb(34, 153, 34);
+        box-shadow: 10px 15px 30px rgb(75, 243, 75);
+        border-radius: 20px;
+    }
+    
+    .thirdBlock {
+        background-color: rgb(189, 192, 13);
+        box-shadow: 10px 15px 15px yellow;
+        border-radius: 20px;
+    }
+    
+    .block {
+        padding: 20px;
+        margin: 20px;
+    }
+    
+    .svg1 {
+        stroke-dasharray: 295px;
+        stroke-dashoffset: 250px;
+        animation: dash1 2s;
+    }
+    
+    @keyframes dash1 {
+        from {
+            stroke-dashoffset: 295;
+        }
+        to {
+            stroke-dashoffset: 250;
+        }
+    }
+    
+    .svg2 {
+        stroke-dasharray: 295px;
+        stroke-dashoffset: 265px;
+        animation: dash2 2s;
+    }
+    
+    @keyframes dash2 {
+        from {
+            stroke-dashoffset: 0;
+        }
+        to {
+            stroke-dashoffset: 265;
+        }
+    }
+    
+    .svg3 {
+        stroke-dasharray: 295px;
+        stroke-dashoffset: 280px;
+        animation: dash3 2s;
+    }
+    
+    @keyframes dash3 {
+        from {
+            stroke-dashoffset: 295;
+        }
+        to {
+            stroke-dashoffset: 280;
+        }
+    }
