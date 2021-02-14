@@ -1,0 +1,38 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+    background: none;
+    box-shadow: 10px 10px 10px black;
+    margin-top: 20%;
+}
+
+.myNumber,
+.myEmail {
+    text-align: center;
+    border: 1px solid;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 45%;
+    box-shadow: 0 10px 30px aliceblue;
+}
+
+.numbers,
+.email {
+    font-size: 0;
+}
+
+.myNumber:hover,
+.myEmail:hover {
+    color: aliceblue;
+    transform: translateX(-100%);
+    transition: 0.5s;
+}
+
+.myNumber:hover .numbers,
+.myEmail:hover .email {
+    font-size: 15px;
+    transform: translateX(150%);
+    transition: 0.2s;
+}
